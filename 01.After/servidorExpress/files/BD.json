@@ -1,0 +1,72 @@
+[
+	{
+		"id": "1",
+		"nombre": "Ojotas",
+		"descripcion": "lisas",
+		"precio": 20000,
+		"categoria": "H"
+	},
+    {
+		"id": "2",
+		"nombre": "Botas",
+		"descripcion": "flores",
+		"precio": 25000,
+		"categoria": "M"
+	},
+	{
+		"id": "3",
+		"nombre": "Zapatillas",
+		"descripcion": "deportivas",
+		"precio": 15000,
+		"categoria": "M"
+	},
+	{
+		"id": "4",
+		"nombre": "Zapatos",
+		"descripcion": "charol",
+		"precio": 22000,
+		"categoria": "H"
+	},
+	{
+		"id": "5",
+		"nombre": "Zapatitos",
+		"descripcion": "rojos",
+		"precio": 5000,
+		"categoria": "N"
+	},
+	{
+		"id": "6",
+		"nombre": "Botitas",
+		"descripcion": "colores",
+		"precio": 20000,
+		"categoria": "N"
+	},
+	{
+		"id": "7",
+		"nombre": "Botines",
+		"descripcion": "negros",
+		"precio": 35000,
+		"categoria": "H"
+	},
+    {
+		"id": "8",
+		"nombre": "Botitas",
+		"descripcion": "colores",
+		"precio": 20000,
+		"categoria": "N"
+	},
+    {
+		"id": "9",
+		"nombre": "Pantuflas",
+		"descripcion": "multicolor",
+		"precio": 10000,
+		"categoria": "M"
+	},
+    {
+		"id": "10",
+		"nombre": "Sandalias",
+		"descripcion": "plataforma",
+		"precio": 28000,
+		"categoria": "M"
+	}
+]
