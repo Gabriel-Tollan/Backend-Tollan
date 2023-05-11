@@ -5,9 +5,12 @@ import productsRouter from './routes/products.router.js';
 import __dirname from './utils.js';
 import viewsRouter from './routes/views.router.js';
 import {Server, Socket} from 'socket.io';
+import mongoose from 'mongoose';
 
 const PORT = process.env.PORT || 8080;
 const app = express();
+const connection = mongoose.connect(MONGO);
+const MONGO = 'mongodb+srv://gabrieltollan:<Gabriel1987>@cluster0.m6bxmyo.mongodb.net/?retryWrites=true&w=majority'
 
 app.engine('handlebars', handlebars.engine());
 app.set('views', __dirname + '/views');
@@ -15,8 +18,10 @@ app.set('views engine', 'handlebars');
 
 
 app.use(express.json());
+
 app.use(express.urlencoded({extended:true}))
 app.use(express.static(__dirname + '/public'))
+
 
 const server = app.listen(PORT, ()=>{
     console.log('Servidor funcionando en el puerto: ' + PORT);
